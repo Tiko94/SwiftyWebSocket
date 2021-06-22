@@ -17,6 +17,6 @@ Pod::Spec.new do |spec|
   spec.source_files = 'SwiftyWebSocket'
   spec.swift_version = '5.0'
   spec.ios.deployment_target  = '13.0'
-  spec.source = {:git => "https://github.com/Tiko94/SwiftyWebSocket"}
+  spec.source = {:git => "https://github.com/Tiko94/SwiftyWebSocket", :tag=> "1.1"}
 
 end
